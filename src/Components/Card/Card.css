@@ -1,0 +1,57 @@
+.card-outer_container{
+    max-width:60em;
+    width:100%;
+    margin:auto;
+}
+
+.card-inner_container{
+    padding:1em;
+    border:.1em solid #ddd;
+    border-radius:.5em;
+    margin-bottom: 1em;
+}
+
+.card_header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.card-title{
+    font-size:1.35rem;
+    font-family:var(--primary-family);
+    font-weight:600;
+}
+
+.card-company_name{
+    font-size:1.125rem;
+    font-family:var(--secondary-family);
+    color:#777;
+}
+
+.card_footer{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.card-btn{
+    background:#eee;
+    border-radius:4em;
+    padding:.2em 1em;
+    font-family:var(--secondary-family);
+    margin-right:1em;
+}
+
+.card_footer a{
+    text-decoration:none
+}
+
+@media screen and (max-width:568px){
+    .card_footer-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-btn{
+        margin-top: .625em;
+    }
+}

@@ -1,0 +1,135 @@
+.button{
+    color:#fff;
+    background-color:var(--primary-color);
+    font-size: 1.125rem;
+    font-family: var(--secondary-family);
+}
+
+.button:hover{
+    background-color:var(--secondary-color);
+    color:#fff;
+}
+
+.hero-container{
+    padding: 3.125em 6.125em; 
+    display: flex;
+    align-items: center;
+}
+
+.hero-text_container{
+    width:50%
+}
+
+.hero-image_container{
+    width: 50%
+}
+
+.hero-image{
+    width: 100%;
+    height:auto;
+}
+
+.hero-title{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: var(--primary-family);
+}
+
+.hero-subtitle{
+    width: 80%;
+    line-height: 180%;
+    padding: 1em 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:#888;
+    font-family: var(--secondary-family);
+}
+
+.hero-search_container{
+    position: relative;
+    display: flex;
+    width: 80%;
+}
+
+.hero-search_bar{
+    height: 2.8em;
+    font-size: 1.125rem;
+    border-radius: 5em;
+    font-family: var(--primary-family);
+    padding-left: 3.125em;
+}
+
+.search-button{
+    position: absolute;
+    font-size: 1.125rem;
+    background: transparent;
+    color: #666;
+    border: none;
+    top: 0;
+    bottom: 0;
+    margin-left:.875em;
+}
+
+
+#job-search_result{
+    padding: 3.125em 1.125em; 
+}
+
+.heading{
+    font-family:var(--primary-family);
+    font-size:1.5rem;
+    font-weight:600;
+    text-transform:capitalize;
+}
+
+@media screen and (max-width:1024px){
+    .nav-container{
+        padding:0 3.125em;
+    }
+    .hero-text_container{
+        padding-top: 3.125em;
+    }
+    .hero-container{
+        padding: 0 3.125em;
+    }
+    .hero-search_container{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav-container{
+        padding: 0 1.5em;
+    }
+    .hero-container{
+        padding: 0 1.5em;
+        flex-direction: column
+    }
+    .hero-text_container{
+        width:100%;
+        text-align:center;
+    }
+    .hero-subtitle{
+        margin:auto;
+    }
+    .hero-image_container{
+        width: 100%;
+        padding: 3.125em 0;
+    }
+    .hero-search_container{
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width:568px){
+    .hero-search_container{
+        width: 100%;
+    }
+    .hero-title{
+        font-size: 3.2rem;
+    }
+    .hero-subtitle{
+        width: 90%;
+    }
+}

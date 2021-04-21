@@ -1,0 +1,58 @@
+.job-apply_container{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .625em;
+    z-index: 4;
+    background-color: #0000007d;
+}
+
+.job-apply-inner_container{
+    position: relative;
+    max-width: 30em;
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: .625em;
+}
+
+.close-button{
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    right: -1em;
+    top: -1em;
+    font-size: 1.5rem;
+}
+
+.success-title{
+    font-size: 1.5rem;
+    font-family: var(--primary-family);
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.success-text{
+    font-size: 1.25rem;
+    font-family: var(--secondary-family);
+    font-weight: 400;
+    padding-bottom: .625em;
+}
+
+@media screen and (max-width:560px){
+    
+.close-button{
+    right: .1em;
+    top: -1.4em;
+}
+
+}

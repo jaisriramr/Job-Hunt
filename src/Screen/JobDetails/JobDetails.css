@@ -1,0 +1,24 @@
+.job-details_container{
+    max-width:60em;
+    padding:3.125em 1.25em;
+    width: 100%;
+    margin: auto;
+}
+
+.display-flex{
+    display:flex;
+    justify-content:space-between;
+}
+
+.job-details_title{
+    font-size:1.5rem;
+    font-weight:600;
+    font-family:var(--primary-family);
+}
+
+.job-details_company-name{
+    font-size:1.125rem;
+    font-weight:400;
+    font-family:var(--secondary-family);
+    color:#777;
+}
