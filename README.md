@@ -6,9 +6,11 @@ Website Link: https://jobs-hunt.netlify.app/
 #
 
 # Features
-* Job search feature
+* Job search 
+* Job apply 
+* Job description
 * Sign in and Sign up
-* Job apply feature
+
 
 #
 
