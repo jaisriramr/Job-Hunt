@@ -1,4 +1,4 @@
-Job Hunt website
+# Job Hunt website
 Created using React JS, Redux,Firebase
 
 Website Link: https://jobs-hunt.netlify.app/
